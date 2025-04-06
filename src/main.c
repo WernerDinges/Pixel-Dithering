@@ -59,10 +59,6 @@ int main(void) {
         return -1;
     }
 
-    // ------------------------------ Resources -----------------------------
-
-    // GLuint atlas = loadTexture("resources/blocks.png");
-
     // ----------------------------- Camera initialization -----------------------------
 
     Camera camera = init_camera(screenWidth, screenHeight);
